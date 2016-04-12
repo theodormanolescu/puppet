@@ -1,6 +1,6 @@
 schedule { 'everyday':
-  period => daily,
-  range  => "2 - 4",
+  period => daily
+  
 }
 # execute 'apt-get update'
 exec { 'apt-update':                    # exec resource named 'apt-update'
