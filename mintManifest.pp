@@ -8,6 +8,6 @@ exec { 'apt-update':                    # exec resource named 'apt-update'
   schedule => 'everyday'
 }
 
-$applications = [ 'vim', 'chromium-browser', 'htop', 'git' ]
+$applications = [ 'vim', 'chromium-browser', 'htop', 'git', 'phpunit' ]
   package { $applications: ensure => 'latest' }
 
